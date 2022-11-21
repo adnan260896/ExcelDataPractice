@@ -21,6 +21,7 @@ public class MainTest extends BrowserLaunchTest {
 		lp.Enter_username(str);
 		lp.Enter_pwd(str2);
 		lp.Click_button();
+		System.out.println("Test case successfully executed!");
 	}
 	
 	@DataProvider
